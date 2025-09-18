@@ -51,23 +51,6 @@ Before running Langflow, you must connect **Gmail** and **Google Calendar**.
 
 Run the helper script:
 
-```bash
-python connect_tools.py
-```
-
-This will:
-
-1. Print a Gmail authentication URL → open in browser → approve access
-2. Print a Google Calendar authentication URL → approve access
-3. Confirm connections like this:
-
-```
-✅ Gmail connected as entity='default'
-✅ Google Calendar connected as entity='default'
-🔍 Current connections:
- - gmail | entity=default | status=active
- - googlecalendar | entity=default | status=active
-```
 
 ---
 
